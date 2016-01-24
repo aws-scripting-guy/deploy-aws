@@ -1,0 +1,35 @@
+
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "",
+    "Metadata": {
+
+    },
+    "Parameters": {
+    
+    },
+    "Mappings": {
+
+    },
+    "Conditions": {
+
+    },
+    "Resources": {
+        
+        "cloudTrail": {
+          "Type": "AWS::CloudTrail::Trail",
+          "Properties": {
+            "S3BucketName": "",
+            "IncludeGlobalServiceEvents": "true | false",
+            "IsLogging": "true | false",
+            "S3KeyPrefix": "",
+            "SnsTopicName": ""
+          }
+        }
+        
+    },
+    "Outputs": {
+
+    }
+}
+    
